@@ -1,6 +1,9 @@
 import Utils.MathUtils;
 import Utils.StarsUtils;
 
+import java.io.Console;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
@@ -21,7 +24,34 @@ public class Main {
         //PrintStars();
 
         // w3 e50
-        UsernameChars();
+        // UsernameChars();
+
+        // w3 e60
+        AlphabeticalWords();
+    }
+
+    public static void AlphabeticalWords() {
+        ArrayList<String> words = new ArrayList<>();
+
+        Scanner input = new Scanner(System.in);
+
+        while (true) {
+            System.out.print("Enter a word: ");
+            String word = input.nextLine();
+
+            if (word.isEmpty()) {
+                System.out.println("You entered the following words:");
+                Collections.sort(words);
+
+                for (String w : words) {
+                    System.out.println(w);
+                }
+
+                break;
+            }
+
+            words.add(word);
+        }
     }
 
     public static void UsernameChars() {
