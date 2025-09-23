@@ -18,18 +18,28 @@ public class Main {
         // NumberGuess();
 
         // w2 e39
-        PrintStars();
+        //PrintStars();
+
+        // w3 e50
+        UsernameChars();
+    }
+
+    public static void UsernameChars() {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter your name: ");
+        String name = input.nextLine();
+
+        for (int i = 0; i < Math.min(name.length() - 1, 3); i++) {
+            System.out.println(i + 1 + ". character: " + name.charAt(i));
+        }
     }
 
     public static void PrintStars() {
-        StarsUtils.PrintStars(10);
-        StarsUtils.PrintStars(3);
-        StarsUtils.PrintStars(7);
-
         StarsUtils.PrintSquare(5);
         StarsUtils.PrintRectangle(10, 4);
 
-        StarsUtils.PrintTria~ngle(5);
+        StarsUtils.PrintTriangle(5);
     }
 
     public static void Factorial() {
