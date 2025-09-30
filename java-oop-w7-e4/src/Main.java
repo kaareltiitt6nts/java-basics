@@ -3,6 +3,25 @@ import Classes.Suitcase;
 import Classes.Thing;
 
 void main() {
+    // enne 4.8
+    //ClassesTesting();
+
+    // ex 4.8
+    Container container = new Container(1000);
+    addSuitcasesFullOfBricks(container);
+    System.out.println(container); // 44 suitcases (990 kg)
+}
+
+public static void addSuitcasesFullOfBricks(Container container) {
+    for (int i = 0; i < 100; i++) {
+        Thing brick = new Thing("Brick", i + 1);
+        Suitcase suitcase = new Suitcase(i + 1);
+        suitcase.addThing(brick);
+        container.addSuitcase(suitcase);
+    }
+}
+
+public static void ClassesTesting() {
     Container container = new Container(50);
 
     Thing book = new Thing("Book", 2);
