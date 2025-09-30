@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basics/basics.iml" filepath="$PROJECT_DIR$/basics/basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-oop-w7-e4/java-oop-w7-e4.iml" filepath="$PROJECT_DIR$/java-oop-w7-e4/java-oop-w7-e4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop-w7-e5/java-oop-w7-e5.iml" filepath="$PROJECT_DIR$/java-oop-w7-e5/java-oop-w7-e5.iml" />
     </modules>
   </component>
 </project>
