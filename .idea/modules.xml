@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-basics.iml" filepath="$PROJECT_DIR$/java-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basics/basics.iml" filepath="$PROJECT_DIR$/basics/basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-oop-w7-e4/java-oop-w7-e4.iml" filepath="$PROJECT_DIR$/java-oop-w7-e4/java-oop-w7-e4.iml" />
     </modules>
   </component>
 </project>
